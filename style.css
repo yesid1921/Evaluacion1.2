@@ -3,3 +3,12 @@
     color: greenyellow;
     display: flex;
 }
+
+.grames{
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+}
