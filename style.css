@@ -1,5 +1,21 @@
-body {
-    background: white;
-    display: flexbox;
+
+.contenedor{
+    border: 2px solid black;
+    margin: 10px;
+    height: 500px;
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.caja {
+    border: 2px solid red;
     margin: 5px;
+    height: 100px;
+    width: 100px;
+    }
+.caja2{
+    background-color: lightblue;
+    grid-column: 3;
+    grid-row: 2;
 }
