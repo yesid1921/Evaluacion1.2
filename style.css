@@ -4,18 +4,46 @@
     margin: 10px;
     height: 500px;
     display: grid;
-    grid-template-columns:repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns:repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+    text-align: center;
+    align-items: flex-start;
 }
 
-.caja {
+.caja1 {
     border: 2px solid red;
+    background-color: blue;
     margin: 5px;
     height: 100px;
     width: 100px;
+    grid-column: 1;
+    grid-row: 2;
     }
 .caja2{
+    border: 2px solid red;
     background-color: lightblue;
+    margin: 3px;
+    height: 100px;
+    width: 100px;
+    grid-column: 1;
+    grid-row: 4;
+}
+.caja3 {
+    border: 3px solid red;
+    background-color: yellow;
+    margin: 3px;
+    height: 100px;
+    width: 100px;
     grid-column: 3;
-    grid-row: 2;
+    grid-row: 1;
+}
+.caja4 {
+    border: 2px solid red;
+    background-color: green;
+    margin: 3px;
+    height: 100px;
+    width: 100px;
+    grid-column: 2;
+    grid-row: 4;
 }
